@@ -68,7 +68,13 @@ class Projects extends Component {
               </CardTitle>
               <CardText>dshfhsd hdjsfhkjds dfhkjdshf dfjhkjadh</CardText>
               <CardActions border>
-                <Button colored>Github</Button>
+                <a
+                  rel="noopener noreferrer"
+                  href="https://github.com/aayushadhikari/versionControl"
+                  target="_blank"
+                >
+                  <Button colored>Github</Button>
+                </a>
               </CardActions>
               <CardMenu style={{ color: "fff" }}>
                 <IconButton name="share" />
@@ -88,7 +94,13 @@ class Projects extends Component {
               </CardTitle>
               <CardText>dshfhsd hdjsfhkjds dfhkjdshf dfjhkjadh</CardText>
               <CardActions border>
-                <Button colored>Github</Button>
+                <a
+                  rel="noopener noreferrer"
+                  href="https://github.com/aayushadhikari/versionControl"
+                  target="_blank"
+                >
+                  <Button colored>Github</Button>
+                </a>
               </CardActions>
               <CardMenu style={{ color: "fff" }}>
                 <IconButton name="share" />
