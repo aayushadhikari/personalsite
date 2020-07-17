@@ -80,32 +80,6 @@ class Projects extends Component {
                 <IconButton name="share" />
               </CardMenu>
             </Card>
-
-            <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-              <CardTitle
-                style={{
-                  color: "black",
-                  height: "150px",
-                  background:
-                    "url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1920px-React-icon.svg.png) center / cover",
-                }}
-              >
-                React Project
-              </CardTitle>
-              <CardText>dshfhsd hdjsfhkjds dfhkjdshf dfjhkjadh</CardText>
-              <CardActions border>
-                <a
-                  rel="noopener noreferrer"
-                  href="https://github.com/aayushadhikari/versionControl"
-                  target="_blank"
-                >
-                  <Button colored>Github</Button>
-                </a>
-              </CardActions>
-              <CardMenu style={{ color: "fff" }}>
-                <IconButton name="share" />
-              </CardMenu>
-            </Card>
           </div>
         );
       case 1:
