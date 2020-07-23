@@ -82,24 +82,6 @@ class Projects extends Component {
             </Card>
           </div>
         );
-      case 1:
-        return (
-          <div>
-            <h1>This is angular</h1>
-          </div>
-        );
-      case 2:
-        return (
-          <div>
-            <h1>This is vue</h1>
-          </div>
-        );
-      case 3:
-        return (
-          <div>
-            <h1>This is MongoDB</h1>
-          </div>
-        );
     }
   };
 
