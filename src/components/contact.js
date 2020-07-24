@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
-import avatar from './avatar.png';
+import avatar from "./avatar.png";
 
 class Contact extends Component {
   render() {
@@ -9,15 +9,9 @@ class Contact extends Component {
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>Aayush Adhikari</h2>
-            <img
-              src={avatar}
-              alt="avatar"
-              style={{ height: "250px" }}
-            />
+            <img src={avatar} alt="avatar" style={{ height: "250px" }} />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              A small town boy from Nepal, here in the states,
-              hoping to use his talents to create products that will help people
-              and make their lives easier.
+              Just a small town boy from Nepal trying to make a difference.
             </p>
           </Cell>
           <Cell col={6}>
@@ -29,7 +23,7 @@ class Contact extends Component {
                   <ListItemContent
                     style={{ fontSize: "25px", fontFamily: "Allan" }}
                   >
-                      <i className="fa fa-phone-square" ariaHidden="true" />
+                    <i className="fa fa-phone-square" ariaHidden="true" />
                     (732) 401 - 2335
                   </ListItemContent>
                 </ListItem>
@@ -37,7 +31,7 @@ class Contact extends Component {
                   <ListItemContent
                     style={{ fontSize: "25px", fontFamily: "Allan" }}
                   >
-                      <i className="fa fa-envelope" ariaHidden="true" />
+                    <i className="fa fa-envelope" ariaHidden="true" />
                     aayushadhikari11@gmail.com
                   </ListItemContent>
                 </ListItem>
