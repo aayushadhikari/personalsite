@@ -135,11 +135,12 @@ body {
 }
 
 .contact-grid h2 {
-  font-family: "Allan", cursive;
+  font-family: "Dancing Script", cursive;
 }
 
 .contact-grid p {
-  font-family: "Oxygen", sans-serif;
+  font-family: "Dancing Script", cursive;
+  font-size: 28px;
 }
 
 .contact-grid hr {
