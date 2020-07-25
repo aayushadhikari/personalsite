@@ -14,7 +14,9 @@ class LandingPage extends Component {
 
             <Slider>
               <div className="banner-text">
-                <h1>Made with Love</h1>
+                <h1 style={{ fontFamily: "'Monoton', cursive" }}>
+                  Made with Love
+                </h1>
                 <hr />
                 <p>
                   {" "}
