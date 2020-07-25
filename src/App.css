@@ -129,7 +129,7 @@ body {
   justify-content: center;
   width: 80%;
   height: 550px;
-  background: white;
+  background: rgba(0, 0, 0, 0);
   color: black;
   margin-bottom: 20px;
 }
