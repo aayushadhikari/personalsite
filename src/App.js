@@ -22,14 +22,7 @@ function App() {
             <Link to="/contact">Contact</Link>
           </Navigation>
         </Header>
-        <Drawer title="Title">
-          <Navigation>
-            <a href="#">Link</a>
-            <a href="#">Link</a>
-            <a href="#">Link</a>
-            <a href="#">Link</a>
-          </Navigation>
-        </Drawer>
+
         <Content>
           <div className="page-content">
             <Main />
