@@ -1,75 +1,67 @@
-.header-color {
-  background: #9a9cb4; /* fallback for old browsers */
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
 body {
-  background: #4e54c8; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #4e54c8,
-    #8f94fb
-  ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to right,
-    #4e54c8,
-    #8f94fb
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-size: 400% 400%;
+    137deg,
+    #e4c693,
+    #6e86d2,
+    #b4b9c8,
+    #3c873f,
+    #ecda4c
+  );
+  background-size: 1000% 1000%;
 
-  animation: gradient 10s ease infinite;
+  -webkit-animation: gradient 12s ease infinite;
+  -moz-animation: gradient 12s ease infinite;
+  animation: gradient 12s ease infinite;
 }
 
-@-moz-keyframes gradient {
-  0% {
-    background-position: 0%;
-  }
-  50% {
-    background-postion: 100%;
-  }
-  100% {
-    background-position: 0%;
-  }
-}
 @-webkit-keyframes gradient {
   0% {
-    background-position: 0%;
+    background-position: 0% 91%;
   }
   50% {
-    background-postion: 100%;
+    background-position: 100% 10%;
   }
   100% {
-    background-position: 0%;
+    background-position: 0% 91%;
+  }
+}
+@-moz-keyframes gradient {
+  0% {
+    background-position: 0% 91%;
+  }
+  50% {
+    background-position: 100% 10%;
+  }
+  100% {
+    background-position: 0% 91%;
   }
 }
 @keyframes gradient {
   0% {
-    background-position: 0%;
+    background-position: 0% 91%;
   }
   50% {
-    background-position: 100%;
+    background-position: 100% 10%;
   }
   100% {
-    background-position: 0%;
+    background-position: 0% 91%;
   }
 }
 
 .landing-grid {
-  background: #4e54c8; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #4e54c8,
-    #8f94fb
-  ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to right,
-    #4e54c8,
-    #8f94fb
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-size: 400% 400%;
+    137deg,
+    #e4c693,
+    #6e86d2,
+    #b4b9c8,
+    #3c873f,
+    #ecda4c
+  );
+  background-size: 1000% 1000%;
 
-  animation: gradient 10s ease infinite;
-  -webkit-animation: gradient 10s ease infinite;
-  -moz-animation: gradient 10s ease infinite;
+  -webkit-animation: gradient 12s ease infinite;
+  -moz-animation: gradient 12s ease infinite;
+  animation: gradient 12s ease infinite;
 
   text-align: center;
   position: fixed;
