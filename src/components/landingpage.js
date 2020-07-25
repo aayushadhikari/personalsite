@@ -18,7 +18,8 @@ class LandingPage extends Component {
                 <hr />
                 <p>
                   {" "}
-                  and with <br />
+                  And With
+                  <br />
                   HTML/CSS | Bootstrap | JavaScript | React
                 </p>
                 <div className="social-links">
