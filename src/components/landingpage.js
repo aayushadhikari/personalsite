@@ -13,7 +13,7 @@ class LandingPage extends Component {
           <Cell col={12}>
             <img src={avatar} alt="avatar" className="avatar-image" />
 
-            <Carousel>
+            <Carousel interval="3000">
               <Carousel.Item>
                 <div className="banner-text">
                   <h1 style={{ fontFamily: "'Monoton', cursive" }}>
