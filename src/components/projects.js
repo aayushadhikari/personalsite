@@ -56,9 +56,7 @@ class Projects extends Component {
                   <Button colored>Github</Button>
                 </a>
               </CardActions>
-              <CardMenu style={{ color: "fff" }}>
-                <IconButton name="share" />
-              </CardMenu>
+              <CardMenu style={{ color: "fff" }}></CardMenu>
             </Card>
 
             <Card
@@ -91,9 +89,7 @@ class Projects extends Component {
                   <Button colored>Github</Button>
                 </a>
               </CardActions>
-              <CardMenu style={{ color: "fff" }}>
-                <IconButton name="share" />
-              </CardMenu>
+              <CardMenu style={{ color: "fff" }}></CardMenu>
             </Card>
           </div>
         );
