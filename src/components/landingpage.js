@@ -13,7 +13,7 @@ class LandingPage extends Component {
           <Cell col={12}>
             <img src={avatar} alt="avatar" className="avatar-image" />
 
-            <Slider duration="2000ms" infinite>
+            <Slider>
               <div className="banner-text">
                 <h1 style={{ fontFamily: "'Monoton', cursive" }}>
                   {"Software Engineer"}
