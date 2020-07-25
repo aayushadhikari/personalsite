@@ -26,7 +26,15 @@ class Projects extends Component {
       case 0:
         return (
           <div className="project-deck">
-            <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <Card
+              shadow={5}
+              style={{
+                minWidth: "450",
+                margin: "auto",
+                borderRadius: "20px",
+                height: "270px",
+              }}
+            >
               <CardTitle
                 style={{
                   color: "black",
@@ -55,7 +63,15 @@ class Projects extends Component {
               </CardMenu>
             </Card>
 
-            <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <Card
+              shadow={5}
+              style={{
+                minWidth: "450",
+                margin: "auto",
+                borderRadius: "20px",
+                height: "270px",
+              }}
+            >
               <CardTitle
                 style={{
                   color: "black",
@@ -64,13 +80,16 @@ class Projects extends Component {
                     "url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1920px-React-icon.svg.png) center / cover",
                 }}
               >
-                React Project
+                KickStarter
               </CardTitle>
-              <CardText>dshfhsd hdjsfhkjds dfhkjdshf dfjhkjadh</CardText>
+              <CardText>
+                A decentralized application to raise money for campaign, built
+                on React, Solidity on the Ethereum Network.
+              </CardText>
               <CardActions border>
                 <a
                   rel="noopener noreferrer"
-                  href="https://github.com/aayushadhikari/versionControl"
+                  href="https://github.com/aayushadhikari/kickstarter"
                   target="_blank"
                 >
                   <Button colored>Github</Button>
