@@ -16,7 +16,11 @@ class LandingPage extends Component {
               <div className="banner-text">
                 <h1>Made with Love</h1>
                 <hr />
-                <p>HTML/CSS | Bootstrap | JavaScript | React</p>
+                <p>
+                  {" "}
+                  and with <br />
+                  HTML/CSS | Bootstrap | JavaScript | React
+                </p>
                 <div className="social-links">
                   <a
                     rel="noopener noreferrer"
