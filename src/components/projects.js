@@ -39,8 +39,6 @@ class Projects extends Component {
                 style={{
                   color: "black",
                   height: "150px",
-                  background:
-                    "url(https://wallpaperset.com/w/full/d/e/3/113004.jpg) center / cover",
                 }}
               >
                 Version Control System
@@ -76,8 +74,6 @@ class Projects extends Component {
                 style={{
                   color: "black",
                   height: "150px",
-                  background:
-                    "url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1920px-React-icon.svg.png) center / cover",
                 }}
               >
                 KickStarter
