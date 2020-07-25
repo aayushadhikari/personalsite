@@ -24,7 +24,7 @@ class Contact extends Component {
                     style={{ fontSize: "25px", fontFamily: "Allan" }}
                   >
                     <i className="fa fa-phone-square" ariaHidden="true" />
-                    (732) 401 - 2335
+                    Can't Give You This
                   </ListItemContent>
                 </ListItem>
                 <ListItem>
