@@ -32,10 +32,10 @@ class LandingPage extends Component {
                     </a>
                     <a
                       rel="noopener noreferrer"
-                      href="https://www.facebook.com/aayush.adhikari17"
+                      href="https://twitter.com/aayushdai"
                       target="_blank"
                     >
-                      <i className="fa fa-facebook" aria-hidden="true" />
+                      <i className="fa fa-twitter" aria-hidden="true" />
                     </a>
                     <a
                       rel="noopener noreferrer"
@@ -77,10 +77,10 @@ class LandingPage extends Component {
                     </a>
                     <a
                       rel="noopener noreferrer"
-                      href="https://www.facebook.com/aayush.adhikari17"
+                      href="https://twitter.com/aayushdai"
                       target="_blank"
                     >
-                      <i className="fa fa-facebook" aria-hidden="true" />
+                      <i className="fa fa-twitter" aria-hidden="true" />
                     </a>
                     <a
                       rel="noopener noreferrer"
