@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import avatar from "./avatar.png";
-import Slider from "react-animated-slider";
 import "react-animated-slider/build/horizontal.css";
 import { Carousel } from "react-bootstrap";
 
@@ -13,7 +12,7 @@ class LandingPage extends Component {
           <Cell col={12}>
             <img src={avatar} alt="avatar" className="avatar-image" />
 
-            <Carousel interval="3000">
+            <Carousel interval="3600">
               <Carousel.Item>
                 <div className="banner-text">
                   <h1 style={{ fontFamily: "'Monoton', cursive" }}>
