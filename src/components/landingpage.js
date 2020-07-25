@@ -57,7 +57,7 @@ class LandingPage extends Component {
               </div>
 
               <div className="banner-text">
-                <h1>BlockChain</h1>
+                <h1 style={{ fontFamily: "'Monoton', cursive" }}>BlockChain</h1>
                 <hr />
                 <p>HTML/CSS | Bootstrap | JavaScript | React</p>
                 <div className="social-links">
