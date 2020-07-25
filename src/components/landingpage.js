@@ -3,6 +3,7 @@ import { Grid, Cell } from "react-mdl";
 import avatar from "./avatar.png";
 import Slider from "react-animated-slider";
 import "react-animated-slider/build/horizontal.css";
+import { Carousel } from "react-bootstrap";
 
 class LandingPage extends Component {
   render() {
@@ -12,17 +13,14 @@ class LandingPage extends Component {
           <Cell col={12}>
             <img src={avatar} alt="avatar" className="avatar-image" />
 
-            <Slider>
+            <Slider duration="2000ms" infinite>
               <div className="banner-text">
                 <h1 style={{ fontFamily: "'Monoton', cursive" }}>
-                  {"Made With Love"}
+                  {"Software Engineer"}
                 </h1>
                 <hr />
                 <p>
-                  {" "}
-                  And With
-                  <br />
-                  HTML/CSS | Bootstrap | JavaScript | React
+                  Web Development | Machine Learning | BlockChain | Internet
                 </p>
                 <div className="social-links">
                   <a
@@ -58,11 +56,14 @@ class LandingPage extends Component {
 
               <div className="banner-text">
                 <h1 style={{ fontFamily: "'Monoton', cursive" }}>
-                  Software Engineer
+                  {"Made With Love"}
                 </h1>
                 <hr />
                 <p>
-                  Internet | BlockChain | Machine Learning | Web Development
+                  {" "}
+                  And With
+                  <br />
+                  HTML/CSS | Bootstrap | JavaScript | React
                 </p>
                 <div className="social-links">
                   <a
