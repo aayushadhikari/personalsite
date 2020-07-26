@@ -20,7 +20,8 @@ class LandingPage extends Component {
                   </h1>
                   <hr />
                   <p>
-                    Web Development | Machine Learning | BlockChain | Internet
+                    Software Development | Machine Learning | BlockChain |
+                    Internet
                   </p>
                   <div className="social-links">
                     <a
