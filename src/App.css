@@ -162,6 +162,7 @@ body {
   padding-top: 20px;
 }
 
-.slider {
-  width: 50%;
+.about h1 {
+  font-family: "Dancing Script", cursive;
+  color: white;
 }
