@@ -163,11 +163,11 @@ body {
 }
 
 .about h1 {
-  font-family: "Dancing Script", cursive;
   color: white;
 }
-.about h2 {
-  font-family: "Dancing Script", cursive;
+.about {
+  display: flex;
+  justify-content: center;
 }
 
 @keyframes float {
