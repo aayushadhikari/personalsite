@@ -27,6 +27,7 @@ class Projects extends Component {
         return (
           <div className="project-deck">
             <Card
+              className="avatar"
               shadow={5}
               style={{
                 minWidth: "450",
@@ -67,6 +68,7 @@ class Projects extends Component {
                 borderRadius: "20px",
                 height: "270px",
               }}
+              className="avatar"
             >
               <CardTitle
                 style={{
