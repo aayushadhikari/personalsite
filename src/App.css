@@ -162,12 +162,12 @@ body {
   padding-top: 20px;
 }
 
+.about p {
+  color: white;
+  font-size: 20px;
+}
 .about h1 {
   color: white;
-}
-.about {
-  display: flex;
-  justify-content: center;
 }
 
 @keyframes float {
