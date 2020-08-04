@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import {
-  Tabs,
-  Tab,
   Grid,
   Cell,
   Card,
@@ -9,7 +7,6 @@ import {
   CardActions,
   Button,
   CardMenu,
-  IconButton,
   CardText,
 } from "react-mdl";
 
