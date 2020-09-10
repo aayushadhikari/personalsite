@@ -9,6 +9,7 @@ services:
       - "3000:3000"
     volumes:
       - /app/node_modules
+      - /app/.next
       - .:/app
   tests:
     build:
@@ -16,6 +17,7 @@ services:
       dockerfile: Dockerfile.dev
     volumes:
       - /app/node_modules
+      - /app/.next
       - .:/app
     stdin_open: true
     command: ["npm", "run", "test"]
