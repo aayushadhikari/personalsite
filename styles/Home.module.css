@@ -131,9 +131,9 @@
 }
 
 .logos {
-  height: 200px;
-  width: 200px;
-  border-radius: 100px;
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
   border: solid 3px #eaeaea;
 }
 .logos:hover,
@@ -171,4 +171,20 @@
 
 .sticky a {
   font-size: 60px;
+}
+
+.github {
+  color: black;
+}
+
+.instagram {
+  color: #517fa4;
+}
+
+.linkedin {
+  color: #007bb6;
+}
+
+.twitter {
+  color: #00aced;
 }
