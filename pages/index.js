@@ -29,7 +29,13 @@ export default function Home() {
   }
   return (
     <div className="navigation">
-      <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+      <Navbar
+        fixed="top"
+        collapseOnSelect
+        expand="lg"
+        bg="light"
+        variant="light"
+      >
         <Navbar.Brand href="/">Aayush Adhikari</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -146,6 +152,7 @@ export default function Home() {
         <section className={styles.sticky}>
           <Fade left>
             <a
+              className={styles.github}
               rel="noopener noreferrer"
               href="https://github.com/aayushadhikari"
               target="_blank"
@@ -153,8 +160,9 @@ export default function Home() {
               <i className="fa fa-github" aria-hidden="true" />
             </a>
           </Fade>
-          <Fade top>
+          <Fade left>
             <a
+              className={styles.instagram}
               rel="noopener noreferrer"
               href="https://www.instagram.com/aayush_adhikari_/?hl=en"
               target="_blank"
@@ -164,6 +172,7 @@ export default function Home() {
           </Fade>
           <Fade right>
             <a
+              className={styles.linkedin}
               rel="noopener noreferrer"
               href="https://www.linkedin.com/in/aayush-adhikari-702707148/"
               target="_blank"
@@ -173,6 +182,7 @@ export default function Home() {
           </Fade>
           <Fade right>
             <a
+              className={styles.twitter}
               rel="noopener noreferrer"
               href="https://twitter.com/aayushdai"
               target="_blank"
