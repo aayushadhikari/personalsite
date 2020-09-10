@@ -29,7 +29,13 @@ export default function Home() {
   }
   return (
     <div className="navigation">
-      <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+      <Navbar
+        fixed="top"
+        collapseOnSelect
+        expand="lg"
+        bg="light"
+        variant="light"
+      >
         <Navbar.Brand href="/">Aayush Adhikari</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
