@@ -1,14 +1,8 @@
 FROM node:alpine
 
-ENV PORT 3000
-
-RUN mkdir -p /usr/src/app
-WORKDIR /usr/src/app
+WORKDIR /app
 COPY package.json .
 RUN npm install
 COPY . .
-RUN npm run build
 
-EXPOSE 3000
-
-CMD "npm" "run" "start"
+CMD ["npm", "run", "dev"]
