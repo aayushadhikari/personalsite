@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "mocha"
+    "test": "mocha",
+    "test:ci": "mocha"
   },
   "dependencies": {
     "@babel/runtime": "^7.11.2",
