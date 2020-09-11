@@ -1,6 +1,6 @@
 import { Nav, Navbar } from "react-bootstrap";
 
-export default function Navigator() {
+export default function Navigator({ aboutClick, contactClick }) {
   return (
     <Navbar fixed="top" collapseOnSelect expand="lg" bg="light" variant="light">
       <Navbar.Brand href="/">Aayush Adhikari</Navbar.Brand>

@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import { Navbar, Nav, Button } from "react-bootstrap";
+import Navbar from "../components/Navbar";
 import Fade from "react-reveal/Fade";
 import Typical from "react-typical";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -29,25 +29,7 @@ export default function Home() {
   }
   return (
     <div className="navigation">
-      <Navbar
-        fixed="top"
-        collapseOnSelect
-        expand="lg"
-        bg="light"
-        variant="light"
-      >
-        <Navbar.Brand href="/">Aayush Adhikari</Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto"></Nav>
-          <Nav>
-            <Nav.Link onClick={aboutClick}>About</Nav.Link>
-            <Nav.Link eventKey={2} onClick={contactClick}>
-              Contact
-            </Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
+      <Navbar aboutClick={aboutClick} contactClick={contactClick} />
       <Head>
         <title>Aayush Adhikari</title>
         <link rel="icon" href="/favicon.ico" />
