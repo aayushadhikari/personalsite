@@ -1,0 +1,19 @@
+version: "3"
+services:
+  portfolio:
+    stdin_open: true
+    build:
+      dockerfile: Dockerfile.dev
+      context: ./portfolio
+    volumes:
+      - /app/node_modules
+      - ./portfolio:/app
+  nginx:
+    depends_on:
+      - portfolio
+    restart: always
+    build:
+      dockerfile: Dockerfile.dev
+      context: ./nginx
+    ports:
+      - "3000:80"
